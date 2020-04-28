@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image pada HTML</title>
+</head>
+<body>
+    <h1>Mau ditaruh mana aja? bisa diambil dari repo apa aja? bentuknya gimana? online ato offline?</h1>
+    <br>
+    <!-- internal resource: logo.png, background.jpg, bisa juga image/gambar1.png.. -->
+	<!-- ada juga eksternal resource (hotlink) misal: https://google.com/images/srpr/logo1w.png tapi tidak disarankan karena memakai bandwith orang lain-->
+	<img src="IconR.png" width="200">
+
+	<!-- bisa gunakan alternate/alternatif dengan menambahkan alt="nama gambar" ketika kondisi kurang lengkap dalam penulisan source-->
+	<br>
+	<img src="Icon2.png" alt="Gambar Love" width="200">
+
+	<!-- title digunakan untuk memberi judul pada gambar (src, alt, title, width, height), title bisa dilihat saat kita meletakkan kursor pada gambar -->
+	<!-- <img width="" height=""> 
+	px= pixel (untuk angka saja)
+	%= persen (ukuran relatif terhadap halamannya)
+	bisa gunakan height / width salah satu, jika gunakan keduanya hati-hati akan tertarik/strech -->
+	<br>
+	<img src="IconR.png" title="Logo resmi I besar" width="200">
+
+	<br>
+	<!-- terakhir menggabungkan gambar dengan hyperlink -->
+	<a href="http://irchamali.id">
+		<img src="Icon2.png" width="200" height="400">
+	</a>
+	<br>
+	<p>Agar tidak strech/tertarik maka gunakan salah satunya seperti ini</p>
+	<a href="http://irchamali.id">
+		<img src="IconR.png" width="20%">
+	</a>
+
+	<br><br><br><br><br><br><br><br>
+</body>
+</html>
