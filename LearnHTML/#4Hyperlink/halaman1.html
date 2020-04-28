@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman 1</title>
+</head>
+<body>
+    <!-- href diisi dengan external link --> 
+	<p>Klik <a href="http://google.com">disini</a> untuk mengetahui informasi lebih lanjut</p>
+
+	<!-- href bisa diisi dengan internal link/ relative url: product.html, ../admin/index.html -->
+	<p>Klik <a href="halaman2.html">disini</a> untuk mengetahui informasi ke halaman 2</p>
+
+	<!-- kenapa internal link disebut juga dengan relative link? karena untuk kasus penempatan folder juga harus merubah script dalam href -->
+	<p>Klik <a href="admin/halaman2a.html">disini</a> untuk mengetahui informasi ke halaman 2A</p>
+
+	<!-- page anchor #about, index.html#blog -->
+	<p>Klik <a href="halaman3.html#bagian3">disini</a> untuk mengetahui informasi artikel ke halaman 3, bagian 3</p>
+
+	<!-- 	cara membuka link untuk masuk pada halaman yang sama, bukan membuka tab baru -> kitaharus menambahkan sebuah atribut
+		<a target=""></a>
+		ada 4 value yang bisa dipake
+		_self (untuk membuka link pada halaman yg sama)
+		_blank (untuk membuka di tab yang baru)
+		_parent
+		_top
+		kalo target'' tidak diisi (value) maka secara default akan menjalankan fungsi value _self
+	 -->
+ 	<p>Klik <a href="halaman3.html" target="_blank">disini</a> untuk mengetahui kumpulan <b>artikel</b> pada HALAMAN 3</p>
+
+ 	<!-- Bagaimana cara kita menghubungkan hyperlink dengan image-> hyperlink + image : download ? -->
+</body>
+</html>
