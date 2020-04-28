@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel 1</title>
+</head>
+<body>
+    <!-- tag <table> berisikan tr(table row)=baris dan td(table data)=kolom -->
+	<p>Ini Contoh table yg simple</p>
+	<table>
+		<tr>
+			<td>baris 1, kolom 1</td>
+			<td>baris 1, kolom 2</td>
+		</tr>
+		<tr>
+			<td>baris 1, kolom 1</td>
+			<td>baris 1, kolom 2</td>
+		</tr>
+	</table>
+
+	<!-- thead=table header: ada tr yang berisi th=tabelhead , 
+	tbody=table body: ada tr yang berisi th dan td
+	hasilnya akan membuat tabel dengan header 2 sumbu
+	  -->
+	<br>
+	<p>Ini Contoh table yg complex</p>
+	<table>
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>Baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>  
+
+	<br><br>
+	<p>Kemudian menambahkan border pada table agar seperti tabel benaran</p>
+	<!-- atribut yang bisa digunakan dalam table: 
+	border (menambahkan garis disekitar border)
+	cellspacing (menambah jarak antar cell)
+	cellpadding (memberi luas pada cell)
+	colspan
+	rowspan
+	3 (border, cellspacing, cellpadding bisa digunakan dgn CSS) -->
+	<table border="1" cellspacing="5">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>Baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+	<p>Untuk memberi jarak antar cell gunakan cellspacing</p>
+	<table border="1" cellspacing="0">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>Baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+	<p>untuk memberikan ruang pada cell gunakan cellpadding</p>
+	<table border="1" cellspacing="0" cellpadding="10">
+		<thead>
+			<tr>
+				<th></th>
+				<th>Kolom 1</th>
+				<th>Kolom 2</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Baris 1</th>
+				<td>Baris 1, Kolom 1</td>
+				<td>Baris 1, Kolom 2</td>
+			</tr>
+			<tr>
+				<th>Baris 2</th>
+				<td>Baris 2, Kolom 1</td>
+				<td>Baris 2, Kolom 2</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br><br><br>
+</body>
+</html>
